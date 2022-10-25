@@ -57,7 +57,7 @@
     <div id="unity-progress-bar">
     </div>
   </div>
-  <script src="Build/Webgl.loader.js"></script>
+  <script src="Build/BreakwaterTest.loader.js"></script>
   <script>
     const maxPixelRatioMobile = 2.0;
     const maxPixelRatioDesktop = 1.5;
@@ -67,11 +67,11 @@
     var pixelRatio = Math.min(window.devicePixelRatio, maxDevicePixelRatio);
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/Webgl.loader.js";
+    var loaderUrl = buildUrl + "/BreakwaterTest.loader.js";
     var config = {
-      dataUrl: buildUrl + "/Webgl.data",
-      frameworkUrl: buildUrl + "/Webgl.framework.js",
-      codeUrl: buildUrl + "/Webgl.wasm",
+      dataUrl: buildUrl + "/BreakwaterTest.data",
+      frameworkUrl: buildUrl + "/BreakwaterTest.framework.js",
+      codeUrl: buildUrl + "/BreakwaterTest.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
       productName: "WebglTest",
